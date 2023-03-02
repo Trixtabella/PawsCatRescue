@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Set fonts & sizes */
+h1,h2,h3,h3,h4,p {
+    font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+ font-size: 30px;
+ padding-bottom: 20px;
+}
+
+.footerlp h3{
+    font-size: 30px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+   }
+
+
+p {
+    font-family: 'lato';
+    line-height: 1.5;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+/* Header & Nav Start */
+.KHeader{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+header{
+    background-color: white;
+    padding: 5px 20px;
+}
+
+header img{
+    width: 250px;
+}
+
+nav{
+    background-color: #007854;
+    padding: 5px, 20px;
+    box-shadow: 0 3px 3px -2px #DDF1CF;
+    
+}
+
+nav li{
+    text-align: center;
+    Font-family: Raleway, sans-serif;
+    font-weight: 50;
+    display: inline;
+    padding: 0 20px;    
+}
+
+nav ul{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    
+}
+
+nav a:hover{
+    color: #DDF1CF;
+ 
+}
+
+button{
+    background-color: #ffff;
+    border-radius: 50px;
+    color: #007854;
+    padding: 20px;
+    line-height: 10px;
+    border-radius: 10px;
+    border: 2px solid #007854; 
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    font-weight:bolder;
+}
+
+button:hover{
+    color: #DDF1CF;
+}
+
+/* Header & Nav END*/
+
+/* Home Page CSS Start */
+
+#KWho_we_are{
+    padding: 380px 275px;
+    background-image: url(img/side-view-cute-cat-sitting-adopt-me-sign.jpg);
+    background-size: cover, auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}    
+
+
+#KWho_we_are h1{
+    color: white;
+    text-shadow:black 1px 1px; border: 2px black;
+    position: absolute;
+    left: 30px;
+    top: 225px;
+    
+}
+
+#KWho_we_are h2{
+    color: white;
+    text-shadow:black 1px 1px; border: 2px black;
+    position: absolute;
+    left: 50px;
+    top: 270px;
+}
+
+#KWho_we_are ul{
+  color: white;
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    font-family: 'lato';
+    font-weight: 250px;
+
+}
+#Kboxes {
+        color: #007854;
+        display: flex;
+        padding: 10px;
+        justify-content: space-evenly; 
+        background-color: #DDF1CF;  
+        padding: 30px;
+        margin: 30px 0px;
+        
+}
+
+#Kboxes img{
+    max-width: 33.3%;
+    align-content: center;
+    border-radius: 30%;
+    border: 3px solid white;
+}
+
+#KBox1{
+    float: left;
+    text-align: justify;
+}
+
+#KFurever_Homes {
+    background-color: #A5B5EB;
+    padding: 30px;
+    margin: 30px 0px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+
+#KFurever_Homes img{
+  border-radius: 30%;
+  border: 7px solid white;
+  max-width: 75%;
+}
+
+
+#KFurever_Homes h2{
+  color: white;
+  font-size: 40px;
+  right: 50%;
+  text-align: center;
+  }
+
+#K2022_Wrapup{
+  color: #007854;
+  background-color: #DDF1CF ;
+  padding: 30px;
+  margin: 30px 0px;
+  text-align: center;
+  
+}
+
+#K2022_Wrapup h2{
+  font-size: 40px;
+  right: 50%;
+  margin: 10px;
+}
+
+
+
+#K2022_Wrapup video{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+/* Home page CSS END */
+
+
+/* About Us CSS Start */
+
+* HERO */
+.hero{
+    background-image: url("img/Cat\ Hero\ Image\ .png");
+    background-size: cover;
+    height: 400px;
+    padding: 50px;
+    color:white;
+}
+.hero h2{
+    padding-bottom: 10px;
+}
+
+.herotextlp{
+    max-width: 600px;
+}
+
+button{
+    padding:20px;
+    font-size: large;
+    border-radius: 20px;
+    border: solid 3px;
+    border-color:#A5B5EB;
+    background-color:#A5B5EB;
+    box-shadow: 5px 5px 40px 4px black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: #007854;
+    border-color:#007854;
+    color: white;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+  
+}
+/* Cats change our lives section */
+.rowlp {
+    display: flex;
+    padding: 0px;
+}
+ 
+.alignleftlp {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+.alignleftlp p{
+    font-size: 17px;
+}
+.alignrightlp {
+    flex: 50%;
+    background-color: #f1f1f1;
+   background-image: url("img/Cat\ Image\ 4\ .png");
+   background-size: cover;
+   height:400px;
+   padding: 50px;
+}
+
+
+
+/* HELP SECTION  */
+
+.helpsection {
+    background-color: #A5B5EB;
+    padding: 50px;
+}
+
+.helpsection h2 {
+padding-bottom: 20px;
+}
+
+.threebox {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.card{
+    max-width: 280px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+
+}
+.card img {
+    max-width: 60%;
+}
+
+.card h3 {
+    font-size: 20px;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 75px; 
+    color:white;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  .footerlp {
+    background-color: #007854;
+    padding: 50px;
+  }
+
+  form{
+    font-family: 'lato';
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+  }
+
+form input{
+margin-bottom: 0px;
+}
+
+#submitbutton{
+    background-color:#007854;
+    color:white;
+    border-color:white;
+    border-radius: 20px;
+    padding:10px;
+    font-family:'lato';
+    font-size: 20px;
+}
+/* About Us CSS END  */
+
+
+/* Cat-alogue CSS Start  */
+
+  
+  ul.breadcrumb {
+  padding: 10px 15px;
+  list-style: none;
+  background-color: #ddf1cf;
+  margin: 0px 35px;
+  border-radius: 5px;
+  }
+  
+  ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+  }
+  ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+  color: #007854;
+  text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+  text-decoration: underline;
+  }
+  .OMheader1{
+    padding: 200px 0 10px 0;
+    background-image: url(feline-fine-header.png);
+   
+  }
+  #OMheroText{
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: #ddf1cf;
+    width: 400px;
+  }
+  .OMblogListing{
+    background-color: #ddf1cf;
+    margin: 25px 50px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .OMblogListingImage1{
+    float: left;
+    margin: 10px 10px;
+  }
+  .OMblogListingImage2{
+    float: right;
+    margin: 10px 10px;
+  }
+  .OMblogBody{
+    background-color: #ddf1cf;
+    margin: 20px 40px;
+    border-radius: 5px;
+    padding: 110px;
+  }
+
+  @media (max-width: 600px) {
+  #OMflex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    }
+  }
+  #OMcatalogue{
+  text-align: center;
+  }
+  
+  .column {
+    flex:33.3%;
+    padding: 5px;
+  }
+
+  .column img{
+    max-width: 30%;
+  }
+  
+  .column p{
+    text-align:center;
+  }
+  
+    
+  .row{
+    display: flex;
+    justify-content:flex-start;
+  
+  }
+
+  /* Cat-alogue CSS END */
+
+/* Feline Fine CSS start */
+
+p, .breadcrumb{
+    font-family: 'Lato', sans-serif;
+}
+
+ul.breadcrumb {
+  padding: 10px 15px;
+  list-style: none;
+  background-color: #ddf1cf;
+  margin: 0px 35px;
+  border-radius: 5px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #007854;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+.OMheader1{
+    background-image: url(img/feline-fine-header.png);
+    
+    height: 400px;
+    border-radius: 5px;
+    background-size: cover, auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#OMheroText{
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: #ddf1cf;
+    width: 400px;
+}
+.OMblogListing{
+    background-color: #ddf1cf;
+    margin: 25px 50px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.OMblogListingImage1{
+    float: left;
+    margin: 10px 10px;
+}
+.OMblogListingImage2{
+    float: right;
+    margin: 10px 10px;
+}
+.OMblogBody{
+    background-color: #ddf1cf;
+    margin: 20px 40px;
+    border-radius: 5px;
+    padding: 110px;
+}
+@media (max-width: 600px) {
+#OMflex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    }
+} 
+#OMcatalogue{
+    text-align: center;
+}
+
+
+/* Feline Fine CSS END */
