@@ -231,7 +231,7 @@ button:hover{
     background-image: url("img/Cat\ Hero\ Image\ .png");
     background-size: cover;
     height: 400px;
-    padding: 50px;
+    padding: 380px 275px;
     color:white;
 }
 .hero h2{
