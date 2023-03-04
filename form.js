@@ -1,7 +1,3 @@
-// function thanks({
-//     alert("Thanks for submitting");
-// }
-
 
 // Next/previous controls
 function plusSlides(n) {
@@ -30,3 +26,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+// function thanks({
+//     alert("Thanks for submitting");
+// }
+
