@@ -1,7 +1,8 @@
-function thanks({
-    alert("Thanks for submitting");
-}
-)
+// function thanks({
+//     alert("Thanks for submitting");
+// }
+
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
