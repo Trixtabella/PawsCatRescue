@@ -1,8 +1,13 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
+
+img {
+  vertical-align: middle;
+}
+
+
 
 /* Set fonts & sizes */
 h1,h2,h3,h3,h4,p {
@@ -166,46 +171,118 @@ button:hover{
   padding: 10px;
   justify-content: space-evenly; 
   background-color: #DDF1CF;  
-  padding: 70px;
-  
-        
+  padding: 60px;
 }
 
-#Kboxes img{
+#Kboxes img {
     max-width: 33.3%;
     align-content: center;
     border-radius: 30%;
     border: 3px solid white;
 }
 
-#KBox1{
+#KBox1 {
     float: left;
     text-align: justify;
 }
+/* Start of Carolsel*/
 
-#KFurever_Homes {
-    background-color: #A5B5EB;
-    padding: 60px;
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+ /* Position the image container (needed to position the left and right arrows) */
+ .Kcontainer {
+  position: relative;
+  background-color: #A5B5EB;
+  padding: 5px;
 }
 
-
-#KFurever_Homes img{
-  border-radius: 30%;
-  border: 7px solid white;
-  max-width: 75%;
-}
-
-
-#KFurever_Homes h2{
-  color: white;
-  font-size: 40px;
-  right: 50%;
+.Kcontainer{
   text-align: center;
-  }
+  color: white;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 25.1%;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 25.1%
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #DDF1CF;
+}
+
+/* Cat name floating text */
+.numbertext {
+  color: darkgray;
+  background-color: #DDF1CF;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 16%;
+  left: 25.1%;
+  border-radius:  0 3px 3px 0;
+  
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #A5B5EB;
+  padding: 4px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* End of Carolsel */
 
 #K2022_Wrapup{
   color: #007854;
@@ -236,11 +313,12 @@ button:hover{
 
 * HERO */
 .hero{
-    background-image: url(img/CatHeroImage.png);
+    padding-top: 150px;
     background-size: cover;
-    height: 400px;
-    padding: 100px;
+    height: 800px;
     color:white;
+    padding-top: 150px;
+    background-image: url(img/CatHeroImage.png);
 }
 
 section{
