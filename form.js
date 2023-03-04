@@ -1,3 +1,8 @@
+function thanks({
+  alert("Thanks for submitting");
+}
+)
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
