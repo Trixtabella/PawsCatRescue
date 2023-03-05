@@ -187,10 +187,10 @@ button:hover{
 #KBox {
     float: left;
     text-align: justify;
-      max-width: 280px;
-      display:flex;
-      flex-direction: column;
-      padding:10px;
+    max-width: 100px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
 }
 /* Start of Carolsel*/
 
