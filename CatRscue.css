@@ -179,6 +179,9 @@ button:hover{
     align-content: center;
     border-radius: 10%;
     border: 3px solid white;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 #KBox1 {
