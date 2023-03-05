@@ -169,7 +169,7 @@ button:hover{
   color: #007854;
   display: flex;
   padding: 10px;
-  justify-content: space-around; 
+  justify-content: space-between; 
   background-color: #DDF1CF;  
   padding: 60px;
 }
