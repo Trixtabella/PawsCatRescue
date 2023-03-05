@@ -178,15 +178,19 @@ button:hover{
     max-width: 33.3%;
     align-content: center;
     border-radius: 10%;
-    border: 3px solid white;
+    border: 3px solid #007854;
     width:  150px;
     height: 150px;
     object-fit: cover;
 }
 
-#KBox1 {
+#KBox {
     float: left;
     text-align: justify;
+      max-width: 280px;
+      display:flex;
+      flex-direction: column;
+      padding:10px;
 }
 /* Start of Carolsel*/
 
