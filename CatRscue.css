@@ -36,16 +36,14 @@ p {
   line-height: 1.5;
 }
 
+
 .OMblogbullet {
   font-family: 'lato';
   line-height: 2.5;
   margin-left:30px;
+  font-weight: normal;
 }
 /*Trying to make sections of bullet points bold*/
-
-.OMblogbullet:b {
-  font-weight:bold!important;
-}
 
 .container{
   width:80%;
@@ -493,7 +491,7 @@ text-decoration: underline;
   background-image: url(feline-fine-header.png);
  
 }
-#OMheroText{
+.OMheroText{
   padding: 10px 0px 20px 20px;
   margin: 20px 20px;
   background-color: #ddf1cf;
@@ -522,7 +520,7 @@ text-decoration: underline;
   padding-right:100px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1260px) {
 #OMflex-container{
   display: flex;
   flex-direction: column;
@@ -531,13 +529,6 @@ text-decoration: underline;
   align-content: center;
   padding: 100px 0;
   }
-}
-#rspcavideo{
-  margin: 20px 0px;
-  text-align: center;
-}
-#OMcatalogue{
-text-align: center;
 }
 
 .column {
@@ -637,16 +628,32 @@ text-decoration: underline;
   align-content: center;
   }
 } 
-#OMcatalogue {
-  text-align: center;
-  font-size: 1.5em;
-}
-#OMcatalogue a:link, #OMcatalogue a:visited {
-  color:#007854!important;
-}
 
 
 .OMBlogTitle {
   font-size: 1.5em!important;
+}
+
+#rspcavideo{
+  margin: 20px 0px;
+  text-align: center;
+}
+#OMcatalogue{
+  padding: 15px;
+  line-height: 10px;  
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  font-size: 24px;
+  border-radius: 20px;
+  border: solid 3px;
+  border-color:#A5B5EB;
+  background-color:#A5B5EB;
+  box-shadow: 0px 1px 10px 0px #858484ab;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
 }
 /* Feline Fine CSS END */
