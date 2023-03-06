@@ -168,9 +168,9 @@ color: white;
 .Kboxes {
   background-color: #DDF1CF; 
   color: #007854;
-  padding: 10px;
-  display:flex;
-  align-content: space-evenly;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Kboxes img {
