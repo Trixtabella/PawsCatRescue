@@ -176,9 +176,9 @@ color: white;
 .Kboxes {
   background-color: #DDF1CF; 
   color: #007854;
-  padding: 10px;
-  display:flex;
-  align-content: space-evenly;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Kboxes img {
@@ -244,11 +244,11 @@ user-select: none;
 
 /* Position the "next button" to the right */
 .next {
-right: 25.1%;
+right: 30.1%;
 border-radius: 3px 0 0 3px;
 }
 .prev {
-left: 25.1%
+left: 30.1%
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
