@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;   
 }
+
 img {
 vertical-align: middle;
 }
+
+
 
 /* Set fonts & sizes */
 h1,h2,h3,h3,h4,p {
@@ -35,15 +38,6 @@ p {
   font-family: 'lato';
   line-height: 1.5;
 }
-
-
-.OMblogbullet {
-  font-family: 'lato';
-  line-height: 2.5;
-  margin-left:30px;
-  font-weight: normal;
-}
-/*Trying to make sections of bullet points bold*/
 
 .container{
   width:80%;
@@ -94,7 +88,7 @@ nav a{
   font-size: 25px;
   text-align: center;
   color: white;
-  text-align: center;
+  
   
 }
 
@@ -104,7 +98,7 @@ nav a:hover{
 }
 
 button{    
-  padding: 15px;
+  padding: 20px;
   line-height: 10px;  
   display: inline-block;
   position: absolute;
@@ -115,7 +109,7 @@ button{
   border: solid 3px;
   border-color:#A5B5EB;
   background-color:#A5B5EB;
-  box-shadow: 0px 1px 10px 0px #858484ab;
+  box-shadow: 5px 5px 40px 4px black;
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   transition-delay: 0.1s;
@@ -177,6 +171,8 @@ color: white;
   padding: 30px;
   display: flex;
   justify-content: space-between;
+
+
 }
 
 .Kboxes img {
@@ -184,18 +180,23 @@ color: white;
   border: 3px solid #007854;
   width:  300px;
   height: 200px;
+
 }
 
 .KBox1 {
   text-align: center;
+  max-width: 33.3%
+ 
 }
 
 .KBox2 {
   text-align: center;
+  max-width: 33.3%
 }
 
 .KBox3 {
   text-align: center;
+  max-width: 33.3%
 }
 
 
@@ -244,6 +245,7 @@ user-select: none;
 .next {
 right: 30.1%;
 border-radius: 3px 0 0 3px;
+
 }
 .prev {
 left: 30.1%
@@ -325,7 +327,7 @@ margin: 0 auto;
 
 /* About Us CSS Start */
 
-* HERO */
+/* * HERO */ 
 .hero{
   padding-top: 150px;
   background-size: cover;
@@ -385,15 +387,34 @@ padding-bottom: 20px;
 .threebox {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  align-items: baseline;
+}
+
+.threebox a{
+  color: white;
+  text-decoration: none;
+}
+
+.threebox li{
+  list-style-type: none;
+  font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+} 
+
+.threebox a:hover{
+  color: #DDF1CF;
 }
 
 .card{
   max-width: 280px;
   display:flex;
   flex-direction: column;
-  padding:10px;
-
+  padding:25px;
+  color: white;
 }
+
 .card img {
   max-width: 60%;
 }
@@ -458,15 +479,13 @@ margin-bottom: 0px;
 
 
 /* Cat-alogue CSS Start  */
-p, .breadcrumb{
-  font-family: 'Lato', sans-serif;
-}
+
 
 ul.breadcrumb {
 padding: 10px 15px;
 list-style: none;
 background-color: #ddf1cf;
-margin: 50px 35px 20px 0;
+margin: 0px 35px;
 border-radius: 5px;
 }
 
@@ -491,11 +510,11 @@ text-decoration: underline;
   background-image: url(feline-fine-header.png);
  
 }
-.OMheroText{
-  padding: 10px 0px 20px 20px;
+#OMheroText{
+  padding: 10px;
   margin: 20px 20px;
   background-color: #ddf1cf;
-  width: 450px;
+  width: 400px;
 }
 .OMblogListing{
   background-color: #ddf1cf;
@@ -516,19 +535,20 @@ text-decoration: underline;
   background-color: #ddf1cf;
   margin: 20px 40px;
   border-radius: 5px;
-  padding-left:100px;
-  padding-right:100px;
+  padding: 110px;
 }
 
-@media (max-width: 1260px) {
+@media (max-width: 600px) {
 #OMflex-container{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  padding: 100px 0;
   }
+}
+#OMcatalogue{
+text-align: center;
 }
 
 .column {
@@ -553,7 +573,7 @@ text-decoration: underline;
 
 /* Cat-alogue CSS END */
 
-/* Feline Fine CSS start 
+/* Feline Fine CSS start */
 
 p, .breadcrumb{
   font-family: 'Lato', sans-serif;
@@ -563,7 +583,7 @@ ul.breadcrumb {
 padding: 10px 15px;
 list-style: none;
 background-color: #ddf1cf;
-margin: 50px 35px 20px 0;
+margin: 0px 35px;
 border-radius: 5px;
 }
 ul.breadcrumb li {
@@ -581,7 +601,7 @@ text-decoration: none;
 }
 ul.breadcrumb li a:hover {
 text-decoration: underline;
-}*/
+}
 .OMheader1{
   background-image: url(img/feline-fine-header.png);
   
@@ -596,7 +616,6 @@ text-decoration: underline;
   margin: 20px 20px;
   background-color: #ddf1cf;
   width: 400px;
-  border-radius: 3px;
 }
 .OMblogListing{
   background-color: #ddf1cf;
@@ -628,32 +647,9 @@ text-decoration: underline;
   align-content: center;
   }
 } 
-
-
-.OMBlogTitle {
-  font-size: 1.5em!important;
-}
-
-#rspcavideo{
-  margin: 20px 0px;
+#OMcatalogue{
   text-align: center;
 }
-#OMcatalogue{
-  padding: 15px;
-  line-height: 10px;  
-  display: inline-block;
-  position: absolute;
-  right: 50px;
-  top: 20px;
-  font-size: 24px;
-  border-radius: 20px;
-  border: solid 3px;
-  border-color:#A5B5EB;
-  background-color:#A5B5EB;
-  box-shadow: 0px 1px 10px 0px #858484ab;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  transition-delay: 0.1s;
-  transition-duration: 0.2s;
-}
+
+
 /* Feline Fine CSS END */
