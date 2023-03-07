@@ -554,6 +554,7 @@ text-align: center;
 .CBoxes {
   background-color: #DDF1CF; 
   color: #007854;
+  padding: 40px;
   display: flex;
   justify-content: space-between;
 
