@@ -1,12 +1,23 @@
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;   
 }
 
-img {
-vertical-align: middle;
+.menu {
+  width: 25%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
 }
 
+img {
+vertical-align: middle;
+max-width: 100%;
+height: auto;
+}
 
 
 /* Set fonts & sizes */
@@ -556,8 +567,13 @@ text-align: center;
   color: #007854;
   padding: 40px;
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-evenly;
+}
+.CBoxes p {
+  
+  max-width:100px;
+  text-align:center;
+  margin: 0 auto;
 
 }
 
