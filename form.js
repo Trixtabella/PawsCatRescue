@@ -1,7 +1,10 @@
-// function thanks({
-//   alert("Thanks for submitting");
-// }
-// )
+function thanks() {
+  document.getElementById('form1').submit();
+  }
+
+  function thanks() {
+    alert('Form has been submitted');
+    }
 
 let slideIndex = 1;
 showSlides(slideIndex);
