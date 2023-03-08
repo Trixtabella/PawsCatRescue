@@ -552,11 +552,6 @@ text-decoration: none;
 ul.breadcrumb li a:hover {
 text-decoration: underline;
 }
-.OMheader1{
-  padding: 200px 0 10px 0;
-  background-image: url(feline-fine-header.png);
- 
-}
 .OMheroText{
   padding: 10px;
   margin: 20px 20px;
@@ -685,9 +680,7 @@ text-decoration: underline;
 }
 .OMheader1{
   background-image: url(img/feline-fine-header.png);
-  
   height: 400px;
-  border-radius: 5px;
   background-size: cover, auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -709,8 +702,10 @@ text-decoration: underline;
 } */
 
 .OMblogListing{
+  box-sizing: border-box;
   display:grid;
   grid-template-columns: 20% 80%;
+  align-content: center;
   justify-content: center;
   background-color: #ddf1cf;
   margin: 25px 50px;
@@ -719,8 +714,10 @@ text-decoration: underline;
   padding-bottom: 15px;
 }
 .OMblogListing2{
+  box-sizing: border-box;
   display:grid;
   grid-template-columns: 80% 20%;
+  align-content: center;
   justify-content: center;
   background-color: #ddf1cf;
   margin: 25px 50px;
@@ -737,7 +734,7 @@ text-decoration: underline;
   align-content: center;
 }
 
-.OMcol-1 > p > a:link, .OMcol-1 > p > a:visited, .OMcol-2 > p > a:link, .OMcol-2 > p > a:visited {
+.OMcol-2 > p > a:link, .OMcol-2 > p > a:visited {
   color:#007854
 }
 
@@ -749,7 +746,7 @@ text-decoration: underline;
 }
 #OMcentretext {
   text-align: center!important;
-  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .OMblogBody{
@@ -758,7 +755,32 @@ text-decoration: underline;
   border-radius: 5px;
   padding: 110px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+.OMheader1{
+  width: max-content;
+  height: auto;
+  background-size: cover, auto;
+  padding-top: 250px;
+}
+.OMheroText{
+  max-width:fit-content;
+  padding: 10px 20px 20px 20px;
+}
+.OMblogListing{
+  box-sizing: border-box;
+  display:flex;
+}
+
+.OMblogListingImage1, .OMblogListingImage2 {
+    display: none;
+  }
+
+ .OMcol-2{
+  width: fit-content;
+  padding-left: 30px;
+  padding-right: 30px;
+ } 
+
 #OMflex-container{
   display: flex;
   flex-direction: column;
@@ -766,10 +788,18 @@ text-decoration: underline;
   justify-content: center;
   align-content: center;
   }
-} 
 #OMcatalogue{
   text-align: center;
 }
-
-
+.footerlp {
+  padding: 50px;
+} 
+.threebox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+}
 /* Feline Fine CSS END */
