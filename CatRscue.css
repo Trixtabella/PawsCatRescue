@@ -557,54 +557,13 @@ text-decoration: underline;
   background-image: url(feline-fine-header.png);
  
 }
-#OMheroText{
+.OMheroText{
   padding: 10px;
   margin: 20px 20px;
   background-color: #ddf1cf;
   width: 400px;
 }
-.OMblogListing{
-  display:grid;
-  grid-template-columns: 20% 80%;
-  justify-content: center;
-  background-color: #ddf1cf;
-  margin: 25px 50px;
-  border-radius: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.OMblogListing2{
-  display:grid;
-  grid-template-columns: 80% 20%;
-  justify-content: center;
-  background-color: #ddf1cf;
-  margin: 25px 50px;
-  border-radius: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 
-.OMblogListing2 > .OMcol-2{
-  padding-left:10px
-}
-
-.OMcol-1, .OMcol-2{
-  align-content: center;
-}
-
-.OMcol-1 > p > a:link, .OMcol-1 > p > a:visited, .OMcol-2 > p > a:link, .OMcol-2 > p > a:visited {
-  color:#007854
-}
-
-.OMblogListingImage1{
-  margin: 10px 10px;
-}
-.OMblogListingImage2{
-  margin: 10px 10px;
-}
-.OMcentretext{
-  text-align: center;
-}
 .OMblogBody{
   background-color: #ddf1cf;
   margin: 20px 40px;
@@ -733,27 +692,66 @@ text-decoration: underline;
   background-repeat: no-repeat;
   background-position: center;
 }
-#OMheroText{
-  padding: 10px;
+.OMheroText{
+  padding: 10px 0 20px 20px;
   margin: 20px 20px;
   background-color: #ddf1cf;
   width: 400px;
+  border-radius: 3px;
 }
-.OMblogListing{
+
+/* .OMblogListing{
   background-color: #ddf1cf;
   margin: 25px 50px;
   border-radius: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
+} */
+
+.OMblogListing{
+  display:grid;
+  grid-template-columns: 20% 80%;
+  justify-content: center;
+  background-color: #ddf1cf;
+  margin: 25px 50px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
+.OMblogListing2{
+  display:grid;
+  grid-template-columns: 80% 20%;
+  justify-content: center;
+  background-color: #ddf1cf;
+  margin: 25px 50px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.OMblogListing2 > .OMcol-2{
+  padding-left:20px
+}
+
+.OMcol-1, .OMcol-2{
+  align-content: center;
+}
+
+.OMcol-1 > p > a:link, .OMcol-1 > p > a:visited, .OMcol-2 > p > a:link, .OMcol-2 > p > a:visited {
+  color:#007854
+}
+
 .OMblogListingImage1{
-  float: left;
   margin: 10px 10px;
 }
 .OMblogListingImage2{
-  float: right;
   margin: 10px 10px;
 }
+#OMcentretext {
+  text-align: center!important;
+  padding-bottom: 20px;
+}
+
 .OMblogBody{
   background-color: #ddf1cf;
   margin: 20px 40px;
