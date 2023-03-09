@@ -636,10 +636,10 @@ p, .breadcrumb{
 }
 
 ul.breadcrumb {
-padding: 10px 15px;
+padding: 10px 15px 10px 0px;
 list-style: none;
 background-color: #ddf1cf;
-margin: 0px 35px;
+margin: 0px 35px 0px 0px;
 border-radius: 5px;
 }
 ul.breadcrumb li {
@@ -726,7 +726,11 @@ text-decoration: underline;
   background-color: #ddf1cf;
   margin: 20px 40px;
   border-radius: 5px;
-  padding: 25px;
+  padding: 25px 50px;
+}
+
+.OMblogBody > h2 {
+  padding-top: 20px;
 }
 
 .OMblogbullet{
