@@ -752,12 +752,31 @@ b {
   padding-bottom: 25px;
 }
 
-#rspcavideo {
-  display:block;
-  margin: auto;
+.rspcavideovid {
+  aspect-ratio: 16 / 9;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
+#OMbutton {
+  font-size:24px!important;
+  display:flex;
+  justify-content: center;
+  padding-top:25px;
+  text-align: center;
+}
+
+#OMbutton > p > a:link, #OMbutton > p > a:visited {
+  color:#007854;
+}
+
+
 @media (max-width: 1100px) {
+.OMblogBody{
+  margin: 30px;
+  padding:20px;
+}
 .OMblogListing1{
   box-sizing: border-box;
   display:grid;
@@ -776,7 +795,13 @@ b {
 .OMblogListingImage2 {
     margin: 10px 10px 10px 0px;
 }
-  }
+.rspcavideovid {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+}  
 @media (max-width: 768px) {
 .OMheader1{
   width: max-content;
@@ -788,11 +813,14 @@ b {
   max-width:fit-content;
   padding: 10px 20px 20px 20px;
 }
+.OMblogBody{
+  margin: 20px;
+  padding:15px;
+}
 .OMblogListing{
   box-sizing: border-box;
   display:flex;
 }
-
 
 .OMblogListingImage1, .OMblogListingImage2 {
     display: none;
@@ -813,6 +841,12 @@ b {
   }
 #OMcatalogue{
   text-align: center;
+}
+.rspcavideovid {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .footerlp {
   padding: 50px;
