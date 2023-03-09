@@ -148,6 +148,7 @@ transition-duration: 0.2s;
   background-repeat: no-repeat;
   background-position: center;
   
+  
 }    
 
 #KWho_we_are h1{
@@ -354,6 +355,7 @@ margin: 10px;
 #K2022_Wrapup video{
 display: block;
 margin: 0 auto;
+max-width: 400px;
 
 }
 
