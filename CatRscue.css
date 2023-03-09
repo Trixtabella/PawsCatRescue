@@ -552,11 +552,11 @@ text-decoration: none;
 ul.breadcrumb li a:hover {
 text-decoration: underline;
 }
-.OMheroText{
-  padding: 10px;
-  margin: 20px 20px;
+#OMherotextcatalogue{
+  padding: 10px 0 20px 20px;
+  margin: 20px 50px;
   background-color: #ddf1cf;
-  width: 400px;
+  width: 600px;
 }
 
 .OMblogBody{
@@ -679,6 +679,7 @@ ul.breadcrumb li a:hover {
 text-decoration: underline;
 }
 .OMheader1{
+  padding-top:200px;
   background-image: url(img/feline-fine-header.png);
   height: 400px;
   background-size: cover, auto;
@@ -687,9 +688,9 @@ text-decoration: underline;
 }
 .OMheroText{
   padding: 10px 0 20px 20px;
-  margin: 20px 20px;
+  margin: 20px 50px;
   background-color: #ddf1cf;
-  width: 400px;
+  width: 600px;
   border-radius: 3px;
 }
 
@@ -726,7 +727,7 @@ text-decoration: underline;
   padding-bottom: 15px;
 }
 
-.OMblogListing2 > .OMcol-2{
+.OMcol-2{
   padding-left:20px
 }
 
