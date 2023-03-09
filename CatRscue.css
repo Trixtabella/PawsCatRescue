@@ -558,27 +558,6 @@ text-decoration: underline;
   background-color: #ddf1cf;
   width: 600px;
 }
-
-.OMblogBody{
-  background-color: #ddf1cf;
-  margin: 20px 40px;
-  border-radius: 5px;
-  padding: 110px;
-}
-
-@media (max-width: 600px) {
-#OMflex-container{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  }
-}
-#OMcatalogue{
-text-align: center;
-}
-
 .CBoxes {
   background-color: #DDF1CF; 
   color: #007854;
@@ -694,14 +673,6 @@ text-decoration: underline;
   border-radius: 3px;
 }
 
-/* .OMblogListing{
-  background-color: #ddf1cf;
-  margin: 25px 50px;
-  border-radius: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-} */
-
 .OMblogListing{
   box-sizing: border-box;
   display:grid;
@@ -740,7 +711,7 @@ text-decoration: underline;
 }
 
 .OMblogListingImage1{
-  margin: 10px 10px;
+  margin: 10px 10px 0px 30px;
 }
 .OMblogListingImage2{
   margin: 10px 10px;
@@ -756,6 +727,27 @@ text-decoration: underline;
   border-radius: 5px;
   padding: 110px;
 }
+
+@media (max-width: 1100px) {
+.OMblogListing1{
+  box-sizing: border-box;
+  display:grid;
+  grid-template-columns: 30% 70%;
+  overflow-wrap: anywhere;
+  }
+.OMblogListing2{
+  box-sizing: border-box;
+  display:grid;
+  grid-template-columns: 70% 30%;
+  overflow-wrap: anywhere;
+  }
+.OMblogListingImage1 {
+    margin: 10px 10px;
+}
+.OMblogListingImage2 {
+    margin: 10px 10px 10px 0px;
+}
+  }
 @media (max-width: 768px) {
 .OMheader1{
   width: max-content;
