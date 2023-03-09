@@ -58,7 +58,8 @@ p {
 
 /* Header & Nav Start */
 .KHeader{
-position: fixed;
+position: sticky;
+top:0;
 width: 100%;
 z-index: 1;
 
@@ -725,7 +726,18 @@ text-decoration: underline;
   background-color: #ddf1cf;
   margin: 20px 40px;
   border-radius: 5px;
-  padding: 110px;
+  padding: 25px;
+}
+
+.OMblogbullet{
+  font-family: 'lato';
+  line-height: 2.5;
+  margin-left: 30px;
+  font-weight: normal;
+}
+
+b {
+  font-weight:700;
 }
 
 @media (max-width: 1100px) {
